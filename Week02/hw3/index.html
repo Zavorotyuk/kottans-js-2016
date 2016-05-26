@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+</head>
+<body>
+<main>
+
+
+<form>
+    <section class="my-flex-container">
+        <section class="goBackButtton">
+            <button type="button" class="btn btn-default btn-lg">GO BACK</button>
+        </section>
+            <section class="logoImg">
+                <img src="img/head.PNG">
+            </section>
+                 <section class="signInButton">
+                      <button type="button" class="btn btn-default btn-lg">SIGN IN</button>
+                 </section>
+
+        <section class="mForm">
+            <section class="formHeader">
+                <section class="yourOrderFormHeader">
+                    <p><img src="img/pic.PNG"> <strong>YOUR ORDER</strong></p>
+                       <table class="headerTable">
+                           <tr>
+                               <td colspan="2" >ITEMS</td>
+                               <td colspan="2">DETAILS</td>
+                               <td colspan="2">PRICE</td>
+                               <td colspan="2">DELIVERY</td>
+                           </tr>
+                            <tr>
+                                <td colspan="2">2 documents</td>
+                                <td colspan="2">2 languages</td>
+                                <td colspan="2">$ 696.06</td>
+                                <td colspan="2">48 hours*</td>
+                            </tr>
+                        </table>
+
+                    <section class="placeOrderButton">
+                           <button type="button" class="btn btn-primary">PLACE ORDER</button>
+                    </section>
+
+                    <section class="printAQuoteButton" >
+                           <button type="button" class="btn btn-default">PRINT A QUOTE</button>
+                    </section>
+                </section>
+
+                    <section class="helpCenterFormHeader">
+                         <p><img src="img/heplC.PNG"> HELP CENTER</p>
+                             <p>If you need assistance while placing your
+                                order,contact one of our beloverd progect
+                                manager by phone pr email</p>
+                                <p> +971(0) 555 555   <a>help@qtest.com</a></p>
+                     </section>
+            </section>
+
+
+        <section class="translateSelect">
+            <h4><p class="selectHeader">SELECT WHAT YOU WANT TO TRANSLATE</p></h4>
+               <section class="translateSelectChoises">
+                   <input type="radio" name="choise" value="ch1"><img src="img/select1.PNG" width="250px" height="200px">
+                   <input type="radio" name="choise" value="ch2" checked="true"><img src="img/select2.PNG" width="270px" height="220px">
+                   <input type="radio" name="choise" value="ch3"><img src="img/select3.PNG" width="250px" height="200px">
+               </section>
+        </section>
+
+
+        <section class="languagesPairingChoise">
+              <h3><img src="img/nmb2.PNG"> Choose your hanguages pairings</h3>
+                <section class="languageFromTranslate">
+                       <label>From</label>  <select class="form-control">
+                          <option >English</option>
+                          <option >Language2</option>
+                          <option >Language3</option>
+                          <option >Language 4</option>
+                         </select>
+                 </section>
+                 <section class="languagesToTranslate">
+                     <label>TO</label>   <select class="form-control">
+                             <option >Arabic</option>
+                             <option >Language2</option>
+                             <option >Language3</option>
+                             <option >Language 4</option>
+                          </select>
+                          <select class="form-control">
+                              <option >Kurdish</option>
+                              <option >Language2</option>
+                              <option >Language3</option>
+                              <option >Language 4</option>
+                          </select>
+                     <button class="btn btn-default" type="submit">+ADD</button>
+
+                  </section>
+        </section>
+
+
+
+            <section class="toneAndUrgent">
+                      <section class="desiredTone">
+                        <h3> <img src="img/nmb3.PNG"> Select your desired tone</h3>
+                          <ul>
+                             <li><input type="radio" name="choise2" value="ch4"><img src="img/destone1.PNG" width="200px" height="60px">
+                             <li><input type="radio" name="choise2" value="ch5" checked="true"><img src="img/destone2.PNG" width="210px" height="70px">
+                             <li><input type="radio" name="choise2" value="ch6"><img src="img/destone3.PNG" width="200px" height="60px">
+                           </ul>
+                      </section>
+                      <section>
+                          <h3><img src="img/nmb4.PNG"> Tell us how urgent this job is</h3>
+                            <div class="range">
+                              <input type="range" max="100" min="1">
+                            </div>
+                                    <section class="timelineInfo">
+                                       <h5><img src="img/timeline.PNG">TIMELINE INFO</h5>
+                                         <p class="timelineInfoContent">With an <em>AVERAGE</em> timeline
+                                         set up,our expert translator can take a reasonable amount of time
+                                         perfecting your translation</p>
+                                    </section>
+                      </section>
+            </section>
+
+
+
+
+        <section class="payment">
+                 <h3><img src="img/nmb5.PNG"> Sign up and choose a payment method</h3>
+                    <p class="hAccount">Already have account whith us?<a href=""> Sign in</a></p>
+                      <div class="form-group">
+                         <label for="exampleInputName2">Name</label>
+                         <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                      </div>
+                           <section class="passwordAndEmail">
+                                  <div class="form-group">
+                                      <label for="exampleInputEmail2">Email</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+                                  </div>
+                                   <div class="form-group">
+                                      <label  for="exampleInputPassword3">Password</label>
+                                      <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+                                  </div>
+                            </section>
+
+            <section>
+                <input type="radio" name="choise" value="ch1"><img src="img/visa.PNG" width="20%" height="10%">
+                <input type="radio" name="choise" value="ch2"><img src="img/paypal.PNG" width="20%" height="10%">
+                <input type="radio" name="choise" value="ch3"><img src="img/amazon.PNG" width="20%" height="10%">
+            </section>
+
+
+            <section class="form-group">
+                <section>
+                    <label >CARD NUMBER</label>
+                    <input type="text" class="form-control"  >
+                </section>
+                <section>
+                     <label>Date</label>
+                      <input type="date" name="date1" class="form-control">
+                </section>
+                      <label> Code</label>
+                      <section class="code">
+                           <input type="password"name="code" class="form-control">
+                    </section>
+
+            </section>
+        </section>
+
+        <section class="agreeAndButtons">
+            </p><input type="checkbox" name="agree">I agree to the <a href="">Terms&Conditions</a>
+              <button type="button" class="btn btn-primary">PLACE ORDER</button>
+              <button type="button" class="btn btn-default">PRINT A QUOTE</button>
+            </p>
+        </section>
+
+
+        </section>
+
+        <footer>
+            <section class="footerContent">
+                <section class="footerSecrionWWD">
+                    <p><h6><img src="img/footer1.PNG">WHAT WE DO</h6></p>
+                    <p>We provide a full range of language
+                        services including content development..</p>
+                </section>
+                <section class="footerSecrionOMO">
+                    <p><h6> <img src="img/footer2.PNG">OUR MAIN OFFICE</h6></p>
+                    <p>Dubai,OAE</p>
+                    <p>P.O. Box:502735</p>
+                    <p>Phone:+971(0)44278128</p>
+                </section>
+                <section class="footerSectionCWU">
+                    <p><h6><img src="img/footer3.PNG">CONNECT WITH US</h6></p>
+                    <ul>
+                        <li><a>Facebook</a>
+                        <li><a>Twitter</a>
+                        <li><a>LinkedIn</a>
+                    </ul>
+                </section>
+                <img src="img/footerLogo.PNG" width="150px" height="150px">
+            </section>
+
+        </footer>
+        </section>
+
+        </form>
+
+    </main>
+</body>
+</html>
